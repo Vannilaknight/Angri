@@ -7,7 +7,7 @@
 ## Getting Started
 
 ```js
-var Angri = require('angri');
+var logger = require('angri');
 ```
 
 ### Description
@@ -17,17 +17,17 @@ Angri logs information to the console with a timestamp and a color to help disce
 ### Logging Functions
 
 ```js
-Angri.log("Users saved");
+logger.log("Users saved");
 
-Angri.info("You left the oven on");
+logger.info("You left the oven on");
 
-Angri.warning("Its dangerous to go alone. Take this!");
+logger.warning("Its dangerous to go alone. Take this!");
 
-Angri.error("Error", "errorMessage");
+logger.error("Error", "errorMessage");
 
-Angri.routeHit("/home/user");
+logger.routeHit("/home/user");
 
-Angri.serverStart("http://localhost:3030");
+logger.serverStart("http://localhost:3030");
 ```
 
 ### Future Features
