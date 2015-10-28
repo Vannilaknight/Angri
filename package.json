@@ -1,7 +1,7 @@
 {
   "name": "angri",
   "version": "1.0.0",
-  "description": "Logger for Hapi",
+  "description": "Node.js colored console logger",
   "main": "angriLogger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
