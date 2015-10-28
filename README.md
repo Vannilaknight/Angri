@@ -1,4 +1,4 @@
-# Angri ### Logger for Hapi.js
+# Angri | Logger for Hapi.js
 
 ## Installation
 
