@@ -1,4 +1,4 @@
-# Angri | Logger for Hapi.js
+# Angri - Logger for Hapi.js
 
 ## Installation
 
@@ -8,8 +8,6 @@
 
 ```js
 var Angri = require('angri');
-
-Angri.log("Logged Message");
 ```
 
 ### Logging Functions
@@ -21,7 +19,7 @@ Angri.info("You left the oven on");
 
 Angri.warning("Its dangerous to go alone. Take this!");
 
-Angri.error("File not found");
+Angri.error("Error", "errorMessage");
 
 Angri.routeHit("/home/user");
 
