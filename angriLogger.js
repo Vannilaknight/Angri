@@ -16,6 +16,10 @@ exports.log = function (message) {
     logger.log(message);
 };
 
+exports.warning = function (message) {
+    logger.warning(message);
+}
+
 exports.error = function (title, message) {
     logger.error(title, message);
 }
