@@ -28,6 +28,10 @@ exports.routeHit = function (route){
     logger.server("Route hit at", route);
 };
 
+exports.server = function (serverUrl) {
+    logger.server("SERVER", serverUrl);
+};
+
 exports.serverStart = function (serverUrl) {
     logger.server("Server started on", serverUrl);
 };
