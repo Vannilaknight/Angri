@@ -1,6 +1,6 @@
 {
   "name": "angri",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node.js colored console logger",
   "main": "angriLogger.js",
   "scripts": {
